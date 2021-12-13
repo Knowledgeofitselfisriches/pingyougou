@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--以ie浏览器的最高版本内核渲染页面-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body {
+            background-color: #2aabd2;
+        }
+    </style>
+    <script>
+        console.log(num); //undefined
+        var num = 10;
+        fn();
+        function fn(){
+            console.log(num); //undefined
+            var num = 20;
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+
+</body>
+
+</html>
